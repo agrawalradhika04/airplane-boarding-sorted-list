@@ -1,5 +1,5 @@
 // Sean McCulloch
-// 3/25/15
+// File as provided as part of the coursework.
 // node.h- defines an template node class for use in a linked list
 // (or other dynamic structure)  Defines basic accessor
 // and mutator functions
