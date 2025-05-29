@@ -1,10 +1,11 @@
 // Sean McCulloch
+// File is as provided as part of the coursework.
 // 3/25/15
 // List.h
 // Implementes a sorted linked list using the node class defined in
 // node.h and node.cpp.  This class will have member functions
 // for insertion, deletion, and printing the list elements out.
-// Note that since this list keeps its notdes in sorted order, it's important
+// Note that since this list keeps its nodes in sorted order, it's important
 // that the type of the nodes be something we can compare with operators like <
 
 #ifndef LIST_H
@@ -136,10 +137,6 @@ void List<T>::Print_List() const{
 	  p = p->get_next();
 	 }
 }
-
-
-// These functions are to be done in lab.  Uncomment the
-// prototype when you're working on them
 
 // Insert inserts an element into the appropriate place in the
 // sorted list
